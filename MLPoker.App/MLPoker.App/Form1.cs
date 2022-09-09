@@ -17,7 +17,7 @@ namespace MLPoker.App
             var response = _useCaseScreen.Execute(new GetWindowScreenUseCaseRequest { Path = @"C:\Code\MachineLearning\MLPoker\MLPoker.App\MLPoker.App\DataSet\Imagen_" + DateTime.Now.Ticks + ".jpg" });
 
             Thread.Sleep(100);
-            pbImage.Image = Image.FromFile(response.Position);
+            pbImage.Image = Image.FromFile(response.Path);
 
         }
 
