@@ -26,5 +26,10 @@ namespace MLPoker.App
             Thread.Sleep(2000);
             _useCaseScreen.Window();
         }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }

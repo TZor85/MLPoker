@@ -36,7 +36,7 @@
             // 
             // btnCapture
             // 
-            this.btnCapture.Location = new System.Drawing.Point(1082, 757);
+            this.btnCapture.Location = new System.Drawing.Point(787, 474);
             this.btnCapture.Name = "btnCapture";
             this.btnCapture.Size = new System.Drawing.Size(186, 95);
             this.btnCapture.TabIndex = 0;
@@ -48,14 +48,14 @@
             // 
             this.pbImage.Location = new System.Drawing.Point(12, 12);
             this.pbImage.Name = "pbImage";
-            this.pbImage.Size = new System.Drawing.Size(1064, 840);
+            this.pbImage.Size = new System.Drawing.Size(769, 557);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImage.TabIndex = 1;
             this.pbImage.TabStop = false;
             // 
             // btnWindow
             // 
-            this.btnWindow.Location = new System.Drawing.Point(1082, 662);
+            this.btnWindow.Location = new System.Drawing.Point(787, 379);
             this.btnWindow.Name = "btnWindow";
             this.btnWindow.Size = new System.Drawing.Size(186, 89);
             this.btnWindow.TabIndex = 2;
@@ -67,12 +67,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 859);
+            this.ClientSize = new System.Drawing.Size(979, 580);
             this.Controls.Add(this.btnWindow);
             this.Controls.Add(this.pbImage);
             this.Controls.Add(this.btnCapture);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
             this.ResumeLayout(false);
 
